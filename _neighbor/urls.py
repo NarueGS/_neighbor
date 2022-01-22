@@ -32,6 +32,6 @@ route.register(r'Despesas_Unidades', mainviewsets.Despesas_UnidadesViewSet,
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('', include(route.urls)),
+    path('api', include(route.urls)),
     path('', include('pages.urls')),
 ]

@@ -53,10 +53,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = '_neighbor.urls'
 
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\gonca\v1\_neighbor\pages\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
