@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Inquilinos</title>
+    <style>
+    body {
+        background-color: rgb(212, 211, 211);
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .link{
+        text-decoration: none;
+        text-decoration-line: none;
+        color: black;
+    }
+    .up{
+            background-color: rgb(29, 29, 29);
+            margin-top: 0%;
+            padding: 0.5em;
+            width: 100;
+        }
+    </style>
+</head>
+<body>
+    <header class='up'>
+        <a class='link' href="/"
+         style="font-size: 200%;color:rgb(139, 5, 5)"
+         >_neighbor</a>
+    </header>
+    {%for x in f %}
+
+        <li >{{f}}</li>
+    {%endfor%}
+</body>
+</html>
